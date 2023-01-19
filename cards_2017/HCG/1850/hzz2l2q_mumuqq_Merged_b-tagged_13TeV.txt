@@ -1,0 +1,25 @@
+imax 1
+jmax 4
+kmax *
+------------
+shapes * * hzz2l2q_mumuqq_Merged_b-tagged_13TeV.input.root w:$PROCESS 
+------------
+bin mumuqq_Merged_b-tagged 
+observation 31 
+------------
+## mass window [300,4000] 
+bin mumuqq_Merged_b-tagged mumuqq_Merged_b-tagged mumuqq_Merged_b-tagged mumuqq_Merged_b-tagged mumuqq_Merged_b-tagged 
+process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
+process -1 0 1 2 3 
+rate 0.0585 0.0389 18.0656 10.8080 0.5304 
+------------
+pdf_qqbar lnN - - 1.03 - - 
+CMS_eff_m lnN 1.041 1.041 1.041 - - 
+zjetsAlpha_merged_btagged lnN - - - - 1.32 
+gmTTbarWW_Merged_btagged gmN 5 - - - 2.16160140932 - 
+CMS_Vtagging lnN 0.972/1.028 0.972/1.028 0.972/1.028 - - 
+JES param  0  1  [-3,3]
+CMS_zz2l2q_mean_m_sig param 0.0 1.0 
+## CMS_zz2l2l_mean_m_err param 0.001 
+CMS_zz2l2q_sigma_m_sig param 0.0 1.0 
+## CMS_zz2l2l_sigma_m_err param 0.2 

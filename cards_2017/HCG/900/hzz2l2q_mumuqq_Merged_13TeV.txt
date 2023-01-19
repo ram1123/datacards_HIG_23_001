@@ -1,0 +1,29 @@
+Combination of hzz2l2q_mumuqq_Merged_untagged_13TeV.txt  hzz2l2q_mumuqq_Merged_b-tagged_13TeV.txt  hzz2l2q_mumuqq_Merged_vbf-tagged_13TeV.txt
+imax 3 number of bins
+jmax 4 number of processes minus 1
+kmax 12 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *    ch1  hzz2l2q_mumuqq_Merged_untagged_13TeV.input.root w:$PROCESS
+shapes *    ch2  hzz2l2q_mumuqq_Merged_b-tagged_13TeV.input.root w:$PROCESS
+shapes *    ch3  hzz2l2q_mumuqq_Merged_vbf-tagged_13TeV.input.root w:$PROCESS
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1             ch2             ch3           
+observation  597             31              15            
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                              ch1             ch1             ch1             ch1             ch1             ch2             ch2             ch2             ch2             ch2             ch3             ch3             ch3             ch3             ch3           
+process                                          ggH_hzz         qqH_hzz         bkg_vz          bkg_zjets       bkg_ttbar       ggH_hzz         qqH_hzz         bkg_vz          bkg_zjets       bkg_ttbar       ggH_hzz         qqH_hzz         bkg_vz          bkg_zjets       bkg_ttbar     
+process                                          -1              0               1               2               3               -1              0               1               2               3               -1              0               1               2               3             
+rate                                             0.1279          0.0992          140.2902        0.5728          35.2138         0.0539          0.0379          18.0656         0.5304          10.808          0.013           0.1033          5.863           0.6069          4.7242        
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_Vtagging            lnN                      0.972/1.028     0.972/1.028     0.972/1.028     -               -               0.972/1.028     0.972/1.028     0.972/1.028     -               -               0.972/1.028     0.972/1.028     0.972/1.028     -               -             
+CMS_eff_m               lnN                      1.041           1.041           1.041           -               -               1.041           1.041           1.041           -               -               1.041           1.041           1.041           -               -             
+gmTTbarWW_Merged_btagged   gmN  5                -               -               -               -               -               -               -               -               -               2.16160140932   -               -               -               -               -             
+gmTTbarWW_Merged_untagged   gmN  85              -               -               -               -               0.414280387409  -               -               -               -               -               -               -               -               -               -             
+gmTTbarWW_Merged_vbftagged   gmN  4              -               -               -               -               -               -               -               -               -               -               -               -               -               -               1.18104113266 
+pdf_qqbar               lnN                      -               -               1.03            -               -               -               -               1.03            -               -               -               -               1.03            -               -             
+zjetsAlpha_merged_btagged   lnN                  -               -               -               -               -               -               -               -               1.32            -               -               -               -               -               -             
+zjetsAlpha_merged_untagged   lnN                 -               -               -               1.03            -               -               -               -               -               -               -               -               -               -               -             
+zjetsAlpha_merged_vbftagged   lnN                -               -               -               -               -               -               -               -               -               -               -               -               -               1.04            -             
+JES           param  0 1 [-3,3]
+CMS_zz2l2q_mean_m_sig  param  0.0 1.0
+CMS_zz2l2q_sigma_m_sig  param  0.0 1.0

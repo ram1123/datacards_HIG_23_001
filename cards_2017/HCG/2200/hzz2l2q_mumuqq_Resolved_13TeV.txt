@@ -1,0 +1,28 @@
+Combination of hzz2l2q_mumuqq_Resolved_untagged_13TeV.txt  hzz2l2q_mumuqq_Resolved_b-tagged_13TeV.txt  hzz2l2q_mumuqq_Resolved_vbf-tagged_13TeV.txt
+imax 3 number of bins
+jmax 4 number of processes minus 1
+kmax 11 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *    ch1  hzz2l2q_mumuqq_Resolved_untagged_13TeV.input.root w:$PROCESS
+shapes *    ch2  hzz2l2q_mumuqq_Resolved_b-tagged_13TeV.input.root w:$PROCESS
+shapes *    ch3  hzz2l2q_mumuqq_Resolved_vbf-tagged_13TeV.input.root w:$PROCESS
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1             ch2             ch3           
+observation  2828            119             67            
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                                 ch1             ch1             ch1             ch1             ch1             ch2             ch2             ch2             ch2             ch2             ch3             ch3             ch3             ch3             ch3           
+process                                             ggH_hzz         qqH_hzz         bkg_vz          bkg_zjets       bkg_ttbar       ggH_hzz         qqH_hzz         bkg_vz          bkg_zjets       bkg_ttbar       ggH_hzz         qqH_hzz         bkg_vz          bkg_zjets       bkg_ttbar     
+process                                             -1              0               1               2               3               -1              0               1               2               3               -1              0               1               2               3             
+rate                                                0.0019          0.0013          222.504         0.5788          222.6243        0               0.0002          6.9751          0.6095          3.7596          0.0002          0.0008          7.1796          0.5927          13.8481       
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_m               lnN                         1.041           1.041           1.041           -               -               1.041           1.041           1.041           -               -               1.041           1.041           1.041           -               -             
+gmTTbarWW_Resolved_btagged   gmN  18                -               -               -               -               -               -               -               -               -               0.208865050639  -               -               -               -               -             
+gmTTbarWW_Resolved_untagged   gmN  158              -               -               -               -               1.40901443852   -               -               -               -               -               -               -               -               -               -             
+gmTTbarWW_Resolved_vbftagged   gmN  8               -               -               -               -               -               -               -               -               -               -               -               -               -               -               1.7310109036  
+pdf_qqbar               lnN                         -               -               1.03            -               -               -               -               1.03            -               -               -               -               1.03            -               -             
+zjetsAlpha_resolved_btagged   lnN                   -               -               -               -               -               -               -               -               1.03            -               -               -               -               -               -             
+zjetsAlpha_resolved_untagged   lnN                  -               -               -               1.02            -               -               -               -               -               -               -               -               -               -               -             
+zjetsAlpha_resolved_vbftagged   lnN                 -               -               -               -               -               -               -               -               -               -               -               -               -               1.025           -             
+JES           param  0 1 [-3,3]
+CMS_zz2l2q_mean_m_sig  param  0.0 1.0
+CMS_zz2l2q_sigma_m_sig  param  0.0 1.0

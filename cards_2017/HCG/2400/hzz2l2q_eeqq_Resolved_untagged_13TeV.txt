@@ -1,0 +1,24 @@
+imax 1
+jmax 4
+kmax *
+------------
+shapes * * hzz2l2q_eeqq_Resolved_untagged_13TeV.input.root w:$PROCESS 
+------------
+bin eeqq_Resolved_untagged 
+observation 2062 
+------------
+## mass window [300,4000] 
+bin eeqq_Resolved_untagged eeqq_Resolved_untagged eeqq_Resolved_untagged eeqq_Resolved_untagged eeqq_Resolved_untagged 
+process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
+process -1 0 1 2 3 
+rate 0.0024 0.0010 174.4009 148.6020 0.4212 
+------------
+pdf_qqbar lnN - - 1.03 - - 
+CMS_eff_e lnN 0.990549/1.00949 0.990549/1.00949 0.990549/1.00949 - - 
+zjetsAlpha_resolved_untagged lnN - - - - 1.02 
+gmTTbarWW_Resolved_untagged gmN 158 - - - 0.940518975199 - 
+JES param  0  1  [-3,3]
+CMS_zz2l2q_mean_e_sig param 0.0 1.0 
+## CMS_zz2l2q_mean_e_err = 0.003 
+CMS_zz2l2q_sigma_e_sig param 0.0 1.0 
+## CMS_zz2l2q_sigma_e_err = 0.2 
