@@ -1,0 +1,26 @@
+Combination of hzz2l2q_eeqq_Resolved_untagged_13TeV.txt  hzz2l2q_mumuqq_Resolved_untagged_13TeV.txt
+imax 2 number of bins
+jmax 4 number of processes minus 1
+kmax 10 number of nuisance parameters
+----------------------------------------------------------------------------------------------------------------------------------
+shapes *    ch1  hzz2l2q_eeqq_Resolved_untagged_13TeV.input.root w:$PROCESS
+shapes *    ch2  hzz2l2q_mumuqq_Resolved_untagged_13TeV.input.root w:$PROCESS
+----------------------------------------------------------------------------------------------------------------------------------
+bin          ch1               ch2             
+observation  2062              2828            
+----------------------------------------------------------------------------------------------------------------------------------
+bin                                                 ch1               ch1               ch1               ch1               ch1               ch2               ch2               ch2               ch2               ch2             
+process                                             ggH_hzz           qqH_hzz           bkg_vz            bkg_zjets         bkg_ttbar         ggH_hzz           qqH_hzz           bkg_vz            bkg_zjets         bkg_ttbar       
+process                                             -1                0                 1                 2                 3                 -1                0                 1                 2                 3               
+rate                                                0.0032            0.003             146.7009          0.4212            146.6736          0.0046            0.0034            199.3984          0.5788            189.5848        
+----------------------------------------------------------------------------------------------------------------------------------
+CMS_eff_e               lnN                         0.990549/1.00949  0.990549/1.00949  0.990549/1.00949  -                 -                 -                 -                 -                 -                 -               
+CMS_eff_m               lnN                         -                 -                 -                 -                 -                 1.041             1.041             1.041             -                 -               
+gmTTbarWW_Resolved_untagged   gmN  158              -                 -                 -                 -                 0.928313898938    -                 -                 -                 -                 1.19990375435   
+pdf_qqbar               lnN                         -                 -                 1.03              -                 -                 -                 -                 1.03              -                 -               
+zjetsAlpha_resolved_untagged   lnN                  -                 -                 -                 1.02              -                 -                 -                 -                 1.02              -               
+JES           param  0 1 [-3,3]
+CMS_zz2l2q_mean_e_sig  param  0.0 1.0
+CMS_zz2l2q_sigma_e_sig  param  0.0 1.0
+CMS_zz2l2q_mean_m_sig  param  0.0 1.0
+CMS_zz2l2q_sigma_m_sig  param  0.0 1.0

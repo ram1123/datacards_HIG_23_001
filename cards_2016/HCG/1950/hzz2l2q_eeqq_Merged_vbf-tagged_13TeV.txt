@@ -1,0 +1,25 @@
+imax 1
+jmax 4
+kmax *
+------------
+shapes * * hzz2l2q_eeqq_Merged_vbf-tagged_13TeV.input.root w:$PROCESS 
+------------
+bin eeqq_Merged_vbf-tagged 
+observation 2 
+------------
+## mass window [300,4000] 
+bin eeqq_Merged_vbf-tagged eeqq_Merged_vbf-tagged eeqq_Merged_vbf-tagged eeqq_Merged_vbf-tagged eeqq_Merged_vbf-tagged 
+process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
+process -1 0 1 2 3 
+rate 0.0188 0.0928 3.3652 1.3199 0.3931 
+------------
+pdf_qqbar lnN - - 1.03 - - 
+CMS_eff_e lnN 0.990549/1.00949 0.990549/1.00949 0.990549/1.00949 - - 
+zjetsAlpha_merged_vbftagged lnN - - - - 1.04 
+gmTTbarWW_Merged_vbftagged gmN 4 - - - 0.329984326381 - 
+CMS_Vtagging lnN 0.972/1.028 0.972/1.028 0.972/1.028 - - 
+JES param  0  1  [-3,3]
+CMS_zz2l2q_mean_e_sig param 0.0 1.0 
+## CMS_zz2l2q_mean_e_err = 0.003 
+CMS_zz2l2q_sigma_e_sig param 0.0 1.0 
+## CMS_zz2l2q_sigma_e_err = 0.2 
