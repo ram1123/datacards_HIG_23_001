@@ -1,0 +1,6 @@
+higgsCombine*.AsymptoticLimits.mH*.root
+*.err
+*.log
+*.out
+*.sh
+*.sub
