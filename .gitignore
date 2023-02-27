@@ -1,4 +1,7 @@
 higgsCombine*.AsymptoticLimits.mH*.root
+higgsCombine*.root
+hzz2l2q_13TeV_xs.root
+*.json
 *.err
 *.log
 *.out
