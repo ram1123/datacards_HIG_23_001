@@ -11,7 +11,7 @@ observation 67
 bin mumuqq_Resolved_vbf-tagged mumuqq_Resolved_vbf-tagged mumuqq_Resolved_vbf-tagged mumuqq_Resolved_vbf-tagged mumuqq_Resolved_vbf-tagged 
 process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
 process -1 0 1 2 3 
-rate 0.0001 0.0019 9.3014 30.3752 0.5927 
+rate 0.0003 0.0018 9.3014 30.3752 0.5927 
 ------------
 lumi_13TeV lnN 1.012 1.012 1.012 - - 
 pdf_qqbar lnN - - 1.03 - - 

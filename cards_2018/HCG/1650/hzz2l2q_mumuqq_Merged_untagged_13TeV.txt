@@ -11,7 +11,7 @@ observation 597
 bin mumuqq_Merged_untagged mumuqq_Merged_untagged mumuqq_Merged_untagged mumuqq_Merged_untagged mumuqq_Merged_untagged 
 process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
 process -1 0 1 2 3 
-rate 0.1833 0.1343 211.2044 43.3342 0.5728 
+rate 0.1834 0.1315 211.2044 43.3342 0.5728 
 ------------
 lumi_13TeV lnN 1.012 1.012 1.012 - - 
 pdf_qqbar lnN - - 1.03 - - 

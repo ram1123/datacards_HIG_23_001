@@ -11,7 +11,7 @@ observation 463
 bin eeqq_Merged_untagged eeqq_Merged_untagged eeqq_Merged_untagged eeqq_Merged_untagged eeqq_Merged_untagged 
 process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
 process -1 0 1 2 3 
-rate 0.1577 0.1148 174.3400 29.7400 0.4272 
+rate 0.1576 0.1173 174.3400 29.7400 0.4272 
 ------------
 lumi_13TeV lnN 1.012 1.012 1.012 - - 
 pdf_qqbar lnN - - 1.03 - - 

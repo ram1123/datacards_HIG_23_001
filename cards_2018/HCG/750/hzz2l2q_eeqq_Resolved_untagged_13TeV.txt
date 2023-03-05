@@ -11,7 +11,7 @@ observation 2062
 bin eeqq_Resolved_untagged eeqq_Resolved_untagged eeqq_Resolved_untagged eeqq_Resolved_untagged eeqq_Resolved_untagged 
 process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
 process -1 0 1 2 3 
-rate 0.0287 0.0197 252.9414 256.3550 0.4212 
+rate 0.0294 0.0197 252.9414 256.3550 0.4212 
 ------------
 lumi_13TeV lnN 1.012 1.012 1.012 - - 
 pdf_qqbar lnN - - 1.03 - - 

@@ -11,7 +11,7 @@ observation 82
 bin eeqq_Resolved_b-tagged eeqq_Resolved_b-tagged eeqq_Resolved_b-tagged eeqq_Resolved_b-tagged eeqq_Resolved_b-tagged 
 process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
 process -1 0 1 2 3 
-rate 0.0018 0.0009 8.1162 2.2530 0.3905 
+rate 0.0018 0.0013 8.1162 2.2530 0.3905 
 ------------
 lumi_13TeV lnN 1.015 1.015 1.015 - - 
 pdf_qqbar lnN - - 1.03 - - 

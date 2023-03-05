@@ -11,7 +11,7 @@ observation 15
 bin mumuqq_Merged_vbf-tagged mumuqq_Merged_vbf-tagged mumuqq_Merged_vbf-tagged mumuqq_Merged_vbf-tagged mumuqq_Merged_vbf-tagged 
 process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets 
 process -1 0 1 2 3 
-rate 0.0239 0.1114 7.4375 4.0340 0.6069 
+rate 0.0239 0.1113 7.4375 4.0340 0.6069 
 ------------
 lumi_13TeV lnN 1.012 1.012 1.012 - - 
 pdf_qqbar lnN - - 1.03 - - 
