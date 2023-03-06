@@ -4,6 +4,7 @@ hzz2l2q_13TeV_xs.root
 fitDiagnostics*.root
 roostats-*.root
 *.png
+*.pdf
 outputfile.root
 *.json
 *.err

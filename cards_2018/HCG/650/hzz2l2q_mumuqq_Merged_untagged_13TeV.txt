@@ -13,7 +13,9 @@ process ggH_hzz qqH_hzz bkg_vz bkg_ttbar bkg_zjets
 process -1 0 1 2 3 
 rate 0.1042 0.0659 211.2044 43.3342 0.5728 
 ------------
-lumi_13TeV lnN 1.012 1.012 1.012 - - 
+lumi_13TeV_2018 lnN 1.015 1.015 1.015 - - 
+lumi_13TeV_correlated_17_18 lnN 1.002 1.002 1.002 - - 
+lumi_13TeV_correlated_16_17_18 lnN 1.02 1.02 1.02 - - 
 pdf_qqbar lnN - - 1.03 - - 
 pdf_hzz2l2q_accept lnN 1.02 1.02 - - - 
 QCDscale_vz lnN - - 1.032 - - 
