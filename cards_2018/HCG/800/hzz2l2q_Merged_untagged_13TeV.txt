@@ -12,7 +12,7 @@ observation  463                     597
 bin                                               eeqq_Merged_untagged    eeqq_Merged_untagged    eeqq_Merged_untagged    eeqq_Merged_untagged    eeqq_Merged_untagged    mumuqq_Merged_untagged  mumuqq_Merged_untagged  mumuqq_Merged_untagged  mumuqq_Merged_untagged  mumuqq_Merged_untagged
 process                                           ggH_hzz                 qqH_hzz                 bkg_vz                  bkg_ttbar               bkg_zjets               ggH_hzz                 qqH_hzz                 bkg_vz                  bkg_ttbar               bkg_zjets             
 process                                           -1                      0                       1                       2                       3                       -1                      0                       1                       2                       3                     
-rate                                              0.1097                  0.0743                  174.34                  29.74                   0.4272                  0.1303                  0.087                   211.2044                43.3342                 0.5728                
+rate                                              0.1109                  0.114                   159.7586                6.6475                  0.4272                  0.1303                  0.1383                  196.0821                8.5239                  0.5728                
 ----------------------------------------------------------------------------------------------------------------------------------
 CMS_Vtagging            lnN                       0.972/1.028             0.972/1.028             0.972/1.028             -                       -                       0.972/1.028             0.972/1.028             0.972/1.028             -                       -                     
 CMS_eff_e               lnN                       0.990549/1.00949        0.990549/1.00949        0.990549/1.00949        -                       -                       -                       -                       -                       -                       -                     
@@ -24,8 +24,8 @@ lumi_13TeV_correlated_17_18   lnN                 1.002                   1.002 
 pdf_hzz2l2q_accept      lnN                       1.02                    1.02                    -                       -                       -                       1.02                    1.02                    -                       -                       -                     
 pdf_qqbar               lnN                       -                       -                       1.03                    -                       -                       -                       -                       1.03                    -                       -                     
 zjetsAlpha_merged_untagged   lnN                  -                       -                       -                       -                       1.03                    -                       -                       -                       -                       1.03                  
-CMS_zz2l2q_bkgMELA_merged  param  0 1 [-3,3]
-CMS_zz2l2q_sigMELA_merged  param  0 1 [-3,3]
+CMS_zz2l2q_bkgMELA_merged_2018  param  0 1 [-3,3]
+CMS_zz2l2q_sigMELA_merged_2018  param  0 1 [-3,3]
 JES           param  0 1 [-3,3]
 CMS_zz2lJ_mean_J_sig  param  0.0 1.0
 CMS_zz2lJ_sigma_J_sig  param  0.0 1.0

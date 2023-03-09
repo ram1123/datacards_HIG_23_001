@@ -5,6 +5,7 @@ fitDiagnostics*.root
 roostats-*.root
 *.png
 *.pdf
+*.cc
 outputfile.root
 *.json
 *.err
